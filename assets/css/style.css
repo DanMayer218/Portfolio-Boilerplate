@@ -20,6 +20,20 @@
   background-color: blue;
 }
 
+#section4 {
+  height: 900px;
+  background-color: rgb(102, 72, 52);
+}
+
+#section5 {
+  height: 900px;
+  background-color: rgb(119, 119, 177);
+}
+#section6 {
+  height: 900px;
+  background-color: rgb(177, 168, 119);
+}
+
 /* #about {
   background-color: aqua;
   height: 1100px;
