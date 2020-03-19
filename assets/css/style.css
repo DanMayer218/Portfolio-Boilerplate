@@ -1,10 +1,11 @@
-/* .navbar {
-
-} */
+.navbar {
+  background-color: blue;
+}
 
 /* #navtags {
   display: flex;
 } */
+
 #section1 {
   height: 900px;
   background-color: pink;
@@ -33,33 +34,3 @@
   height: 900px;
   background-color: rgb(177, 168, 119);
 }
-
-/* #about {
-  background-color: aqua;
-  height: 1100px;
-}
-
-#landing {
-  background-color: rgb(20, 78, 78);
-  height: 1100px;
-}
-
-#contact {
-  background-color: rgb(9, 255, 0);
-  height: 1100px;
-}
-
-#experience {
-  background-color: rgb(132, 0, 255);
-  height: 1100px;
-}
-
-#skillsets {
-  background-color: rgb(255, 60, 0);
-  height: 1100px;
-}
-
-#portfolio {
-  background-color: rgb(255, 0, 21);
-  height: 1100px;
-} */
