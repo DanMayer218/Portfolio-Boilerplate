@@ -1,36 +1,70 @@
 .navbar {
-  background-color: rgb(178, 178, 218);
+  /* background-color: rgb(134, 134, 134); */
+  background-image: linear-gradient(
+    to right,
+    rgb(36, 36, 36),
+    grey,
+    rgb(36, 36, 36)
+  );
+  color: white;
+  /* font-family: "Syncopate", sans-serif; */
 }
 
-/* #navtags {
+.navbar-brand {
+  /* font-family: "Syncopate", sans-serif; */
+
+  color: white;
+  margin-left: 30px;
+}
+#name {
+  color: white;
+  font-family: "Syncopate", sans-serif;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+#navtags {
+  width: 50%;
   display: flex;
-} */
+  justify-content: space-evenly;
+  color: white;
+}
+#navanch {
+  color: white;
+  background-color: rgba(0, 0, 255, 0);
+}
 
 #section1 {
-  height: 900px;
-  background-color: pink;
+  height: 750px;
+  background-color: rgba(185, 185, 185, 0.52);
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+}
+#jumbo1 {
+  height: 500px;
+  padding-left: 140px;
 }
 
 #section2 {
-  height: 900px;
-  background-color: yellow;
+  height: 750px;
+  background-color: rgba(255, 255, 0, 0.452);
 }
 
 #section3 {
-  height: 900px;
+  height: 750px;
   background-color: blue;
 }
 
 #section4 {
-  height: 900px;
+  height: 750px;
   background-color: rgb(102, 72, 52);
 }
 
 #section5 {
-  height: 900px;
+  height: 750px;
   background-color: rgb(119, 119, 177);
 }
 #section6 {
-  height: 900px;
+  height: 750px;
   background-color: rgb(177, 168, 119);
 }
