@@ -1,0 +1,201 @@
+.fade-carousel {
+  position: relative;
+  height: 80vh;
+}
+.fade-carousel .carousel-inner .item {
+  height: 80vh;
+}
+.fade-carousel .carousel-indicators > li {
+  margin: 0 px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: 0.7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+}
+
+/* Headers */
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(48, 47, 47, 0.87);
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.815);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 25px;
+}
+.hero h1 {
+  font-size: 6em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+  opacity: 0;
+  -webkit-transition: 2s all ease-in-out 0.1s;
+  -moz-transition: 2s all ease-in-out 0.1s;
+  -ms-transition: 2s all ease-in-out 0.1s;
+  -o-transition: 2s all ease-in-out 0.1s;
+  transition: 2s all ease-in-out 0.1s;
+}
+.fade-carousel .carousel-inner .item.active .hero {
+  opacity: 1;
+  -webkit-transition: 2s all ease-in-out 0.1s;
+  -moz-transition: 2s all ease-in-out 0.1s;
+  -ms-transition: 2s all ease-in-out 0.1s;
+  -o-transition: 2s all ease-in-out 0.1s;
+  transition: 2s all ease-in-out 0.1s;
+}
+
+/* Slide backgrounds */
+.fade-carousel .slides .slide-1a,
+.fade-carousel .slides .slide-2a,
+.fade-carousel .slides .slide-3a,
+.fade-carousel .slides .slide-4a,
+.fade-carousel .slides .slide-5a,
+.fade-carousel .slides .slide-6a,
+.fade-carousel .slides .slide-7a,
+.fade-carousel .slides .slide-8a,
+.fade-carousel .slides .slide-9a,
+.fade-carousel .slides .slide-10a,
+.fade-carousel .slides .slide-11a,
+.fade-carousel .slides .slide-12a,
+.fade-carousel .slides .slide-13a,
+.fade-carousel .slides .slide-14a,
+.fade-carousel .slides .slide-15a,
+.fade-carousel .slides .slide-16a,
+.fade-carousel .slides .slide-17a,
+.fade-carousel .slides .slide-18a,
+.fade-carousel .slides .slide-19a,
+.fade-carousel .slides .slide-20a,
+.fade-carousel .slides .slide-21a,
+.fade-carousel .slides .slide-22a,
+.fade-carousel .slides .slide-23a {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1a {
+  background-image: url(./images/artworkgall/astronot.png);
+}
+.fade-carousel .slides .slide-2a {
+  background-image: url(./images/artworkgall/bickle.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-3a {
+  background-image: url(./images/artworkgall/samurai_sm.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-4a {
+  background-image: url(images/artworkgall/onthecorner.PNG);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-5a {
+  background-image: url(images/artworkgall/poison.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-6a {
+  background-image: url(images/artworkgall/family-huddle.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-7a {
+  background-image: url(images/artworkgall/Glowfish.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-8a {
+  background-image: url(images/artworkgall/eye1_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-9a {
+  background-image: url(images/artworkgall/skeletal.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-10a {
+  background-image: url(images/artworkgall/red_record_lgpng.png);
+}
+.fade-carousel .slides .slide-11a {
+  background-image: url(images/artworkgall/multihead_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-12a {
+  background-image: url(images/artworkgall/kenny_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-13a {
+  background-image: url(images/artworkgall/babyhead_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-14a {
+  background-image: url(images/artworkgall/citystreet1.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-15a {
+  background-image: url(images/artworkgall/sittingbymyself.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-16a {
+  background-image: url(images/artworkgall/painterly_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-17a {
+  background-image: url(images/artworkgall/woodheads1_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-18a {
+  background-image: url(images/artworkgall/Enola-gray.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-19a {
+  background-image: url(images/artworkgall/astronaut1_lg.png);
+  background-size: contain;
+  position: center;
+}
+.fade-carousel .slides .slide-20a {
+  background-image: url(images/artworkgall/cityscape.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-21a {
+  background-image: url(images/artworkgall/headbag_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-22a {
+  background-image: url(images/artworkgall/Grinder_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-23a {
+  background-image: url(images/artworkgall/venonymous.png);
+  background-size: contain;
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px) {
+  .hero {
+    width: 980px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .hero h1 {
+    font-size: 4em;
+  }
+}
+
+carodiv {
+  position: absolute;
+  top: 60px;
+  margin-top: 60px;
+}
