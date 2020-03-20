@@ -34,6 +34,7 @@
 }
 
 #section1 {
+  display: flex;
   height: 750px;
   background-image: url(galleries/art_gallery/artgall/red_record_lgpng.png);
   background-position: right; /* background-color: rgba(185, 185, 185, 0.52); */
@@ -42,6 +43,7 @@
   padding-top: 30px;
 }
 #jumbo1 {
+  width: 80%;
   height: 680px;
   padding-left: 140px;
   z-index: 10;
@@ -70,24 +72,41 @@
 }
 
 #section5 {
-  height: 750px;
+  height: 950px;
   background-color: rgb(0, 0, 0);
-  padding-top: 100px;
+  padding-top: 80px;
   padding-left: 30px;
   padding-right: 30px;
-
-  justify-content: space-around;
-  align-content: space-around;
 }
 /* Cards to the various galleries */
+
+.col {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
 .card {
-  height: 300px;
+  height: 375px;
+  width: 70%;
+  border: 1px solid rgb(255, 255, 255);
+}
+.card-img-top {
+  height: 70%;
+}
+.card-body {
+  background-color: rgba(148, 148, 148, 0.849);
+  color: white;
+  border-top: 1px solid white;
 }
 .card-title {
   text-align: center;
+  font-size: 30px;
 }
 .card-text {
   text-align: center;
+}
+#cardanchor {
+  color: white;
 }
 /* Contact section css */
 #section6 {
