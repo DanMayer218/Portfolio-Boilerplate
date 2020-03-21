@@ -1,4 +1,28 @@
+/* *****************     TABLE OF CONTENTS **************** */
+
+/* HEADER AND NAVBAR */
+
+/* LANDING SECTION */
+
+/* ABOUT GRID */
+
+/* ABOUT ME SECTION */
+
+/* ABOUT CONTENT */
+
+/* GALLERY CARDS */
+
+/* GALLERY CSS  */
+
+/* CONTACT ME */
+
+/* 
+*******************************************************
+*******************************************************
+******************************************************* */
+
 /* Header and Nav css
+*******************************************************
 ******************************************************* */
 .navbar {
   background-image: linear-gradient(
@@ -20,8 +44,9 @@
 #name {
   color: white;
   font-family: "Syncopate", sans-serif;
+  font-weight: bolder;
   font-size: 30px;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
 }
 #navtags {
   width: 50%;
@@ -30,29 +55,76 @@
   color: white;
 }
 #navanch {
-  color: white;
+  color: rgb(216, 216, 216);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
   background-color: rgba(0, 0, 255, 0);
+  letter-spacing: 4px;
 }
 
 /* Landing section css
+*******************************************************
 *************************************************************** */
 #section1 {
   display: flex;
-  height: 750px;
+  height: 800px;
   background-image: url(galleries/art_gallery/artgall/red_record_lgpng.png);
-  background-position: right; /* background-color: rgba(185, 185, 185, 0.52); */
+  background-position: right;
   justify-content: center;
-  /* align-content: center; */
   padding-top: 30px;
 }
 #jumbo1 {
   width: 80%;
   height: 680px;
-  padding-left: 140px;
+  padding-left: 30px;
   z-index: 10;
   color: white;
 }
-/* about me grid */
+#jumbodiv {
+  /* background-color: rgba(49, 49, 49, 0.603); */
+  /* border: 5px solid white; */
+  padding-top: 20px;
+  padding-left: 45px;
+  /* border-radius: 20px; */
+}
+#jumbotitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 5px;
+  font-size: 55px;
+  text-align: left;
+  display: block;
+  align-content: flex-start;
+  line-height: 45px;
+}
+#myname {
+  /* margin-top: 30px; */
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 45px;
+}
+#jumbosubtit {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 45px;
+}
+#welcometext {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 35px;
+}
+/* about me grid
+*******************************************************
+*******************************************************  */
 .rowing {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -67,47 +139,69 @@ col-6 {
   border-right: 1px solid white;
 }
 /* About Me section css
+*******************************************************
 ******************************************************* */
 #section2 {
   /* height: 750px;
   background-color: rgba(0, 0, 0, 0.452); */
   width: 100%;
   display: flex;
-  height: 750px;
+  height: 900px;
   background-image: url(galleries/art_gallery/artgall/red_record_lgpng.png);
   justify-content: center;
   /* align-content: center; */
   padding: 50px;
+  border-left: 1px solid rgba(255, 255, 255, 0.534);
+  border-right: 1px solid rgb(255, 255, 255, 0.534);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  /* margin-bottom: 70px; */
 }
 
 #rowa {
+  margin-top: 40px;
   width: 100%;
   height: 80px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgba(151, 149, 149, 0.582),
+    rgb(0, 0, 0)
+  );
 }
+
+/* about Content
+*******************************************************
+*******************************************************  */
 #rowb {
   width: 100%;
-
+  padding-top: 20px;
   height: 400px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
 }
 #colbord {
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  /* border-left: 1px solid white;
+  border-right: 1px solid white; */
+  padding-top: 15px;
 }
 
-/* about Content */
 h1 {
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 15px;
   display: flex;
   color: white;
   text-align: center;
   justify-content: center;
   align-content: center;
 }
-p {
+.textcol {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.abouttext {
   color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 #aboutpic {
@@ -118,25 +212,107 @@ p {
 .aboutext {
   padding-top: 20px;
 }
-/* experience  */
+
+/* WORK EXPERIENCE
+*******************************************************
+*******************************************************  */
 #section3 {
-  height: 750px;
-  background-color: blue;
-}
-
-#section4 {
-  height: 750px;
-  background-color: rgb(102, 72, 52);
-}
-
-#section5 {
-  height: 950px;
-  background-color: rgb(0, 0, 0);
-  padding-top: 80px;
+  background-color: black;
+  height: 1400px;
+  margin-top: 70px;
+  padding-top: 90px;
   padding-left: 30px;
   padding-right: 30px;
 }
-/* Cards to the various galleries */
+#jobtit {
+  display: flex;
+  flex-direction: column;
+}
+#expcont {
+  height: 1000px;
+}
+#workrow {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgba(151, 149, 149, 0.582),
+    rgb(0, 0, 0)
+  );
+  margin-bottom: 10px;
+}
+
+#exrowa {
+  /* border: 1px solid white; */
+  height: 550px;
+}
+#workgrid {
+  padding: 20px;
+  /* border: 1px solid white; */
+}
+
+#twocoll {
+  color: white;
+  height: 400px;
+}
+#jobname {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 30px;
+}
+#namesub {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  font-size: 20px;
+
+  color: white;
+  letter-spacing: 5px;
+}
+
+#jobsumm {
+  /* height: 550px; */
+  padding-top: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#fromtill {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#jobdesc {
+  /* height: 550px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  padding-left: 20px;
+
+  padding-right: 20px;
+}
+
+#workpara {
+  /* width: 80%; */
+  justify-self: center;
+  align-self: flex-start;
+
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#workparalist {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* Cards to the various galleries
+*******************************************************
+*******************************************************  */
 
 .col {
   display: flex;
@@ -166,7 +342,9 @@ p {
 #cardanchor {
   color: white;
 }
-/* Gallery css rules */
+/* Gallery css rules
+*******************************************************
+*******************************************************  */
 #gallerynav {
   display: flex;
   justify-content: stretch;
@@ -178,8 +356,29 @@ p {
   /* position: absolute;
   right: 20px; */
 }
-/* Contact section css */
+/* Contact section css
+*******************************************************
+*******************************************************  */
 #section6 {
   height: 750px;
   background-color: rgb(177, 168, 119);
+}
+
+/* Contact section css
+
+*******************************************************
+*******************************************************
+******************************************************* */
+
+#section4 {
+  height: 750px;
+  background-color: rgb(102, 72, 52);
+}
+
+#section5 {
+  height: 950px;
+  background-color: rgb(0, 0, 0);
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
