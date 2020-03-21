@@ -44,8 +44,9 @@
 #name {
   color: white;
   font-family: "Syncopate", sans-serif;
+  font-weight: bolder;
   font-size: 30px;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
 }
 #navtags {
   width: 50%;
@@ -54,8 +55,11 @@
   color: white;
 }
 #navanch {
-  color: white;
+  color: rgb(216, 216, 216);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
   background-color: rgba(0, 0, 255, 0);
+  letter-spacing: 4px;
 }
 
 /* Landing section css
@@ -147,8 +151,8 @@ col-6 {
   justify-content: center;
   /* align-content: center; */
   padding: 50px;
-  border-left: 1px solid rgb(255, 255, 255);
-  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgba(255, 255, 255, 0.534);
+  border-right: 1px solid rgb(255, 255, 255, 0.534);
   border-bottom: 1px solid rgb(255, 255, 255);
   /* margin-bottom: 70px; */
 }
