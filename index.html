@@ -20,7 +20,7 @@
 
 <body style="background-color: black;">
  <!-- ****************************************************************************************************************************** Navbar section ******************************************-->
- <nav class="navbar sticky-top">
+ <nav class="navbar fixed-top">
     <a class="navbar-brand" id="name" href="#top">DANIEL MAYER</a>
     <div id="navtags">
       <a href="#section2" id="navanch">ABOUT ME</a>
@@ -58,13 +58,11 @@
       <!-- row A -->
       <div class="row" id='rowa'>
         <div class="col-3" id='colbord'>
-          1 of 3
         </div>
         <div class="col-6" id='colbord'>
 <h1>Who is Daniel Mayer</h1>
         </div>
         <div class="col-3" id='colbord'>
-          3 of 3
         </div>
       </div>
       <!-- row B -->
@@ -85,69 +83,7 @@
       </div>
     </div>
 
-  <!-- About me -->
-  <!-- <div class="main" id="section2">
-    <h2>about</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Who is Daniel Mayer?</h1>
-          <p class="lead">
-            Daniel Mayer is a recent graduate from a Coding Bootcamp through
-            Columbia University's Engineering Department. As an artist, I have
-            an innate sense of design. As a former small business owner I have
-            great leadership skills in project management, terrific skills as a
-            communicator both directly with clients and delegating
-            responsibility to my team.
-          </p>
-        </div>
-        <div class="col">
-          <h3>I've Got Some skills.</h3>
-
-          <ul class="skill-bars">
-            <li>
-              <div class="progress percent90"><span>90%</span></div>
-              <strong>HTML5</strong>
-            </li>
-            <li>
-              <div class="progress percent85"><span>85%</span></div>
-              <strong>CSS3</strong>
-            </li>
-            <li>
-              <div class="progress percent70"><span>70%</span></div>
-              <strong>Javascript</strong>
-            </li>
-            <li>
-              <div class="progress percent70"><span>70%</span></div>
-              <strong>JQuery</strong>
-            </li>
-            <li>
-              <div class="progress percent70"><span>70%</span></div>
-              <strong>Node Js</strong>
-            </li>
-            <li>
-              <div class="progress percent70"><span>70%</span></div>
-              <strong>Express</strong>
-            </li>
-            <li>
-              <div class="progress percent75"><span>75%</span></div>
-              <strong>React</strong>
-            </li>
-            <li>
-              <div class="progress percent75"><span>75%</span></div>
-              <strong>Mysql</strong>
-            </li>
-            <li>
-              <div class="progress percent70"><span>70%</span></div>
-              <strong>Deck gl</strong>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-
-    </div>
-  </div> -->
+ 
  <!-- ****************************************************************************************************************************** Work Experience Section ******************************************-->
  <div class="main" id="section3">
 
@@ -508,7 +444,19 @@
   });
   </script>
  <!-- *************************************************************************************************************************** Portfolio Galleries Section ******************************************-->
+
  <div class="main" id="section5">
+  <div class='container-fluid' style='margin-bottom: 30px;'>
+    <div class="row" id='workrow'>
+      <div class="col-3" id='colbord'>
+      </div>
+      <div class="col-6" id='colbord'>
+  <h1 id='workex'>PORTFOLIO</h1>
+      </div>
+      <div class="col-3" id='colbord'>
+      </div>
+    </div>
+   </div>
     <div class="row row-cols-1 row-cols-md-2">
       <!-- *************** Artwork Gallery Card ******************** -->
       <div class="col mb-4">
@@ -572,59 +520,72 @@
     </div>
   </div>
 
- <!-- *************************************************************************************************************************** Contact Section ******************************************--> 
+ <!-- *************************************************************************************************************************** Contact Title Section ******************************************--> 
   <div class="main" id="section6">
-    <h2>contact</h2>
-
-    <div class="row narrow section-intro">
-      <div class="col-full">
-        <h3>Contact</h3>
-        <h1>Say Hello.</h1>
-
-        <p class="lead">
-          Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo
-          ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident
-          aliquip quis qui voluptate dolore veniam Ut laborum non est in
-          officia.
-        </p>
+    <div class='container-fluid' style='margin-bottom: 30px;'>
+      <div class="row" id='workrow'>
+        <div class="col-3" id='colbord'>
+        </div>
+        <div class="col-6" id='colbord'>
+    <h1 id='workex'>CONTACT ME</h1>
+        </div>
+        <div class="col-3" id='colbord'>
+        </div>
       </div>
+     </div>
+           <!-- *************************************************************************************************************************** Contact forms grid  **************************************--> 
+
+     <div class='container'>
+       <header>Please reach out!</header>
+       <h3> Thank you for visiting my portfolio and for your time and consideration.</h3>
+      <div class='row'>
+    <div class='col-3'></div>
+    <div class='col-6'><form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1" id='formtext'>Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1" id='formtext'>Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </form></div>
+    <div class='col-3'></div>
+    
+      </div>
+      <!-- Footer section -->
     </div>
+    
+    </div>
+    <!-- <nav class="navbar fixed-bottom navbar-light bg-light"> -->
+      <div class="container-fluid  fixed-bottom" id='footerbar'>
+        <div class='row'>
+          <div class='col-1'></div>
+          <div class='col-2'></div>
+          <div class='col-3'>
+            <a class="navbar-brand" id='footerlinks' href="https://github.com/DanMayer218">Visit my Github Repo</a>
+          </div>
+          <div class='col-3'>
+            <a class="navbar-brand" id='footerlinks' href="https://www.linkedin.com/in/dan-mayer-b8394499/">Visit my Linkedin</a>
+          </div>
+          <div class='col-2'></div>
+          <div class='col-1'></div>
 
-    <div class="row contact__main">
-      <div class="col-eight tab-full contact__form">
-        <form name="contactForm" id="contactForm" method="post" action="">
-          <fieldset>
-            <div class="form-field">
-              <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
-                required="" aria-required="true" class="full-width" />
-            </div>
-            <div class="form-field">
-              <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required=""
-                aria-required="true" class="full-width" />
-            </div>
-            <div class="form-field">
-              <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
-                class="full-width" />
-            </div>
-            <div class="form-field">
-              <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""
-                aria-required="true" class="full-width"></textarea>
-            </div>
-            <div class="form-field">
-              <button class="full-width btn--primary">Submit</button>
-              <div class="submit-loader">
-                <div class="text-loader">Sending...</div>
-                <div class="s-loader">
-                  <div class="bounce1"></div>
-                  <div class="bounce2"></div>
-                  <div class="bounce3"></div>
-                </div>
-              </div>
-            </div>
-          </fieldset>
-        </form>
-        <!-- <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a> -->
+        </div>
       </div>
+
+    <!-- </nav> -->
+
+
+    <!-- </div> -->
+
+
+
+
+
+
+   
       <!-- Bootstrap js links -->
       <!-- <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
