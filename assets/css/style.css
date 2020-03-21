@@ -1,4 +1,28 @@
+/* *****************     TABLE OF CONTENTS **************** */
+
+/* HEADER AND NAVBAR */
+
+/* LANDING SECTION */
+
+/* ABOUT GRID */
+
+/* ABOUT ME SECTION */
+
+/* ABOUT CONTENT */
+
+/* GALLERY CARDS */
+
+/* GALLERY CSS  */
+
+/* CONTACT ME */
+
+/* 
+*******************************************************
+*******************************************************
+******************************************************* */
+
 /* Header and Nav css
+*******************************************************
 ******************************************************* */
 .navbar {
   background-image: linear-gradient(
@@ -35,14 +59,14 @@
 }
 
 /* Landing section css
+*******************************************************
 *************************************************************** */
 #section1 {
   display: flex;
   height: 800px;
   background-image: url(galleries/art_gallery/artgall/red_record_lgpng.png);
-  background-position: right; /* background-color: rgba(185, 185, 185, 0.52); */
+  background-position: right;
   justify-content: center;
-  /* align-content: center; */
   padding-top: 30px;
 }
 #jumbo1 {
@@ -51,15 +75,13 @@
   padding-left: 30px;
   z-index: 10;
   color: white;
-  border-radius: 20px;
 }
 #jumbodiv {
   /* background-color: rgba(49, 49, 49, 0.603); */
-  border: 5px solid white;
+  /* border: 5px solid white; */
   padding-top: 20px;
   padding-left: 45px;
-  border-radius: 20px;
-  box-shadow: 1px 6px 15px 4px rgba(0, 0, 0, 0.849);
+  /* border-radius: 20px; */
 }
 #jumbotitle {
   font-family: "Nunito Sans", sans-serif;
@@ -96,7 +118,9 @@
   letter-spacing: 5px;
   line-height: 35px;
 }
-/* about me grid */
+/* about me grid
+*******************************************************
+*******************************************************  */
 .rowing {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -111,6 +135,7 @@ col-6 {
   border-right: 1px solid white;
 }
 /* About Me section css
+*******************************************************
 ******************************************************* */
 #section2 {
   /* height: 750px;
@@ -125,6 +150,7 @@ col-6 {
   border-left: 1px solid rgb(255, 255, 255);
   border-right: 1px solid rgb(255, 255, 255);
   border-bottom: 1px solid rgb(255, 255, 255);
+  /* margin-bottom: 70px; */
 }
 
 #rowa {
@@ -139,6 +165,10 @@ col-6 {
     rgb(0, 0, 0)
   );
 }
+
+/* about Content
+*******************************************************
+*******************************************************  */
 #rowb {
   width: 100%;
   padding-top: 20px;
@@ -147,14 +177,12 @@ col-6 {
 #colbord {
   /* border-left: 1px solid white;
   border-right: 1px solid white; */
-  padding-top: 20px;
-}
-#aboutline {
-  border-right: 1px solid rgba(255, 255, 255, 0.883);
+  padding-top: 15px;
 }
 
-/* about Content */
 h1 {
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 15px;
   display: flex;
   color: white;
   text-align: center;
@@ -180,25 +208,107 @@ h1 {
 .aboutext {
   padding-top: 20px;
 }
-/* experience  */
+
+/* WORK EXPERIENCE
+*******************************************************
+*******************************************************  */
 #section3 {
-  height: 750px;
-  background-color: blue;
-}
-
-#section4 {
-  height: 750px;
-  background-color: rgb(102, 72, 52);
-}
-
-#section5 {
-  height: 950px;
-  background-color: rgb(0, 0, 0);
-  padding-top: 80px;
+  background-color: black;
+  height: 1400px;
+  margin-top: 70px;
+  padding-top: 90px;
   padding-left: 30px;
   padding-right: 30px;
 }
-/* Cards to the various galleries */
+#jobtit {
+  display: flex;
+  flex-direction: column;
+}
+#expcont {
+  height: 1000px;
+}
+#workrow {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0),
+    rgba(151, 149, 149, 0.582),
+    rgb(0, 0, 0)
+  );
+  margin-bottom: 10px;
+}
+
+#exrowa {
+  /* border: 1px solid white; */
+  height: 550px;
+}
+#workgrid {
+  padding: 20px;
+  /* border: 1px solid white; */
+}
+
+#twocoll {
+  color: white;
+  height: 400px;
+}
+#jobname {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 30px;
+}
+#namesub {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  font-size: 20px;
+
+  color: white;
+  letter-spacing: 5px;
+}
+
+#jobsumm {
+  /* height: 550px; */
+  padding-top: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#fromtill {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#jobdesc {
+  /* height: 550px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  padding-left: 20px;
+
+  padding-right: 20px;
+}
+
+#workpara {
+  /* width: 80%; */
+  justify-self: center;
+  align-self: flex-start;
+
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#workparalist {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* Cards to the various galleries
+*******************************************************
+*******************************************************  */
 
 .col {
   display: flex;
@@ -228,7 +338,9 @@ h1 {
 #cardanchor {
   color: white;
 }
-/* Gallery css rules */
+/* Gallery css rules
+*******************************************************
+*******************************************************  */
 #gallerynav {
   display: flex;
   justify-content: stretch;
@@ -240,8 +352,29 @@ h1 {
   /* position: absolute;
   right: 20px; */
 }
-/* Contact section css */
+/* Contact section css
+*******************************************************
+*******************************************************  */
 #section6 {
   height: 750px;
   background-color: rgb(177, 168, 119);
+}
+
+/* Contact section css
+
+*******************************************************
+*******************************************************
+******************************************************* */
+
+#section4 {
+  height: 750px;
+  background-color: rgb(102, 72, 52);
+}
+
+#section5 {
+  height: 950px;
+  background-color: rgb(0, 0, 0);
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
