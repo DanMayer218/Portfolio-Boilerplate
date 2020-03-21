@@ -281,7 +281,10 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 #fromtill {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 22px;
+  letter-spacing: 4px;
   padding: 5px;
   margin-bottom: 20px;
 }
@@ -323,10 +326,17 @@ h1 {
   height: 1600px;
   margin-top: 70px;
   padding-top: 90px;
-  padding-left: 30px;
-  padding-right: 30px;
+  /* padding-left: 30px; */
+  /* padding-right: 30px; */
 }
-
+#gagediv {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+#gagerow {
+  width: 100%;
+}
 /* Portfolio Section
 *******************************************************
 *******************************************************  */
