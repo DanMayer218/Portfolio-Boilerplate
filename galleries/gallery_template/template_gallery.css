@@ -92,134 +92,134 @@
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1a {
-  background-image: url(./landscape_image1/balducci-residence.PNG);
+  background-image: url();
 }
 .fade-carousel .slides .slide-2a {
-  background-image: url(./landscape_image1/archrender1_lg.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-3a {
-  background-image: url(./landscape_image1/archrender2_lg.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-4a {
-  background-image: url(./landscape_image1/433\amb\occ\copy.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-5a {
-  background-image: url(./landscape_image1/96thStreet.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-6a {
-  background-image: url(./landscape_image1/433-overview.PNG);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-7a {
-  background-image: url(./landscape_image1/khaitani.jpg);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-8a {
-  background-image: url(./landscape_image1/Sovereign.PNG);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-9a {
-  background-image: url(./landscape_image1/Sovereign2.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-10a {
-  background-image: url(./landscape_image1/ruddovertouse.jpg);
+  background-image: url();
   background-position: bottom;
 }
 .fade-carousel .slides .slide-11a {
-  background-image: url(./landscape_image1/39_fith_use.PNG);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-12a {
-  background-image: url(./landscape_image1/crichtonroof_use.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-13a {
-  background-image: url(./landscape_image1/rudd_containers_use.jpg);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-14a {
-  background-image: url(./landscape_image1/West_end_use.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-15a {
-  background-image: url(./landscape_image1/nyc_map_use.jpg);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-16a {
-  background-image: url(./landscape_image1/albert_use.jpg);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-17a {
-  background-image: url(./landscape_image1/BrevoortMaple_use.JPG);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-18a {
-  background-image: url(./landscape_image1/rudd_containers2_use.jpg);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-19a {
-  background-image: url(./landscape_image1/Inz_island_use.jpg);
+  background-image: url();
   background-size: contain;
   position: center;
 }
 .fade-carousel .slides .slide-20a {
-  background-image: url(./landscape_image1/InzerilloIsland2_use.JPG);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-21a {
-  background-image: url(./landscape_image1/HamshawStoneStairs_use.JPG);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-22a {
-  background-image: url(./landscape_image1/35\Rooftop_use.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-23a {
-  background-image: url(./landscape_image1/25fithpano_use.jpg);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-24a {
-  background-image: url(./landscape_image1/woosterstreet_use.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-25a {
-  background-image: url(./landscape_image1/Spamerover.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-26a {
-  background-image: url(./landscape_image1/Meonthetruck_use.jpg);
+  background-image: url();
   background-size: contain;
 }
 /* .fade-carousel .slides .slide-27a {
-  background-image: url();
-  background-size: contain;
-}
-.fade-carousel .slides .slide-28a {
-  background-image: url();
-  background-size: contain;
-}
-.fade-carousel .slides .slide-29a {
-  background-image: url();
-  background-size: contain;
-}
-.fade-carousel .slides .slide-30a {
-  background-image: url();
-  background-size: contain;
-}
-.fade-carousel .slides .slide-31a {
-  background-image: url();
-  background-size: contain;
-}
-.fade-carousel .slides .slide-32a {
-  background-image: url();
-  background-size: contain;
-  position: center;
-} */
+    background-image: url();
+    background-size: contain;
+  }
+  .fade-carousel .slides .slide-28a {
+    background-image: url();
+    background-size: contain;
+  }
+  .fade-carousel .slides .slide-29a {
+    background-image: url();
+    background-size: contain;
+  }
+  .fade-carousel .slides .slide-30a {
+    background-image: url();
+    background-size: contain;
+  }
+  .fade-carousel .slides .slide-31a {
+    background-image: url();
+    background-size: contain;
+  }
+  .fade-carousel .slides .slide-32a {
+    background-image: url();
+    background-size: contain;
+    position: center;
+  } */
 
 /********************************/
 /*          Media Queries       */
@@ -249,8 +249,8 @@
   height: 70px;
   margin-bottom: 20px;
   /* display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; */
+    flex-direction: row;
+    justify-content: space-evenly; */
 }
 
 #gallerytitle {
