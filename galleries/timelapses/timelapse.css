@@ -1,0 +1,98 @@
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px) {
+  .hero {
+    width: 980px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .hero h1 {
+    font-size: 4em;
+  }
+}
+
+#gallerynav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+#gallerytitle {
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 12px;
+  text-align: center;
+}
+
+#gallrow {
+  display: flex;
+  align-content: center;
+  height: 60px;
+  padding-top: auto;
+  padding-bottom: 5px;
+}
+
+#namecol {
+  text-align: left;
+  position: absolute;
+  left: 20px;
+  align-content: center;
+}
+
+#gobackbutt {
+  font-family: "Nunito Sans", sans-serif;
+  position: absolute;
+  right: 30px;
+  height: 35px;
+  width: 120px;
+  background-color: rgba(128, 128, 128, 0.109);
+  border: 1px solid white;
+  padding-top: auto;
+  padding-bottom: auto;
+  line-height: 3px;
+}
+
+.navbar-brand {
+  height: 60px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 8px;
+}
+
+.row {
+  border: 1px solid white;
+}
+.col-4 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid white;
+  height: 250px;
+}
+
+#vidgalwrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 1000px;
+}
+
+#gallthumbs {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+}
+
+#row1 {
+  height: 250px;
+}
