@@ -67,158 +67,56 @@
 .fade-carousel .slides .slide-5,
 .fade-carousel .slides .slide-6,
 .fade-carousel .slides .slide-7,
-.fade-carousel .slides .slide-8 {
+.fade-carousel .slides .slide-8,
+.fade-carousel .slides .slide-9,
+.fade-carousel .slides .slide-10,
+.fade-carousel .slides .slide-11 {
   height: 100vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(images/codingall1/PRISM.png);
+  background-image: url();
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(images/codingall1/bootique.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(images/codingall1/nodeyourcode2.png);
+  background-image: url();
   background-size: contain;
   /* background-position: bottom; */
 }
 .fade-carousel .slides .slide-4 {
-  background-image: url(images/codingall1/vacayscreen.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-5 {
-  background-image: url(images/codingall1/danazonscreenshot.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-6aa {
-  background-image: url(images/landscape_image1/433-overview.PNG);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-7 {
-  background-image: url(images/codingall1/danazonscreenshot.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-8aa {
-  background-image: url(images/landscape_image1/Spamerover.png);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-9aa {
-  background-image: url(images/landscape_image1/340East75th.PNG);
+  background-image: url();
   background-size: contain;
 }
 .fade-carousel .slides .slide-10aa {
-  background-image: url(images/landscape_image1/Brevoort-wb-opt-2.jpg);
+  background-image: url();
 }
 .fade-carousel .slides .slide-11aa {
-  background-image: url(images/landscape_image1/Sovereign2.png);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-12aa {
-  background-image: url(images/landscape_image1/Sovereign.PNG);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-13aa {
-  background-image: url(images/landscape_image1/60Sutton.JPG);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-14aa {
-  background-image: url(images/landscape_image1/InzerilloIsland.JPG);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-15aa {
-  background-image: url(images/landscape_image1/crichtonroof.png);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-16aa {
-  background-image: url(images/landscape_image1/Albert.JPG);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-17aa {
-  background-image: url(images/landscape_image1/60sutton1_lg.png);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-18aa {
-  background-image: url(images/landscape_image1/khaitani-int-fin.JPG);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-19aa {
-  background-image: url(images/landscape_image1/25fithpano.jpg);
-  background-size: contain;
-  position: center;
-}
-.fade-carousel .slides .slide-20aa {
-  background-image: url(images/landscape_image1/Brevoortrooftop.PNG);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-21aa {
-  background-image: url(images/landscape_image1/woosterstreet.png);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-22aa {
-  background-image: url(images/landscape_image1/crichtonroof.png);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-23aa {
-  background-image: url(images/landscape_image1/145Lexington.png);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-24aa {
-  background-image: url(images/landscape_image1/340roofRender.PNG);
-}
-.fade-carousel .slides .slide-25aa {
-  background-image: url(images/landscape_image1/IMG_1241.jpg);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-26aa {
-  background-image: url(images/landscape_image1/IMG_0080.jpg);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-27aa {
-  background-image: url(images/landscape_image1/IMG_0031.jpg);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-28aa {
-  background-image: url(images/landscape_image1/IMG_0271.jpg);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-29aa {
-  background-image: url(images/landscape_image1/IMG_0901.jpg);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-30aa {
-  background-image: url(images/landscape_image1/IMG_2494.jpg);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-31aa {
-  background-image: url(images/landscape_image1/IMG_3259(1).jpg);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-32aa {
-  background-image: url(images/landscape_image1/IMG_3980-(2).jpg);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-33aa {
-  background-image: url(images/landscape_image1/HamshawStoneStairs.JPG);
-  background-size: contain;
-  position: center;
-}
-.fade-carousel .slides .slide-34aa {
-  background-image: url(images/landscape_image1/Untitled.png);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-35aa {
-  background-image: url(images/landscape_image1/340playground.png);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-36aa {
-  background-image: url(images/landscape_image1/IMG_0889.jpg);
-  background-size: contain;
-}
-.fade-carousel .slides .slide-37aa {
-  background-image: url(images/landscape_image1/Yorktownterr.jpg);
+  background-image: url();
   background-size: contain;
 }
 
@@ -236,8 +134,72 @@
   }
 }
 
-carodiv {
+.carodiv {
   position: absolute;
   top: 60px;
   margin-top: 60px;
+}
+
+#gallerynav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 20px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+}
+
+#gallerytitle {
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 12px;
+  text-align: center;
+  /* padding-top: 7px; */
+}
+
+#gallrow {
+  display: flex;
+  align-content: center;
+  height: 60px;
+  padding-top: auto;
+  padding-bottom: 5px;
+  /* padding-top: 15px; */
+}
+
+#namecol {
+  text-align: left;
+  position: absolute;
+  left: 20px;
+  align-content: center;
+
+  /* padding-top: 13px; */
+}
+
+#gobackbutt {
+  font-family: "Nunito Sans", sans-serif;
+  position: absolute;
+  right: 30px;
+  height: 35px;
+  width: 120px;
+  background-color: rgba(128, 128, 128, 0.109);
+  border: 1px solid white;
+  padding-top: auto;
+  padding-bottom: auto;
+  line-height: 3px;
+}
+
+.navbar-brand {
+  /* position: absolute; */
+  /* left: 40px; */
+  height: 60px;
+  color: white;
+  font-family: "Syncopate", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 8px;
 }
